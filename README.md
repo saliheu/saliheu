@@ -13,6 +13,15 @@ LLM based systems: retrieval, agents, and fine-tuning open models for narrow tas
 
 #### Projects
 
+**[go-address-validator](https://github.com/saliheu/go-address-validator)** · Go, Gin, GORM, PostgreSQL, Redis, Docker
+
+An address validation API over the GeoNames dataset. Administrative hierarchies are
+not the same shape in every country, so one self-referencing table with a numeric
+level replaces fixed province/district columns. Turkish breaks naive string matching
+in two ways the language runtime will not warn you about, so every lookup goes
+through a Turkish-aware normalizer. Matching returns a confidence score rather than
+a boolean, because real input is truncated and misspelled.
+
 **[pixel-bar](https://github.com/saliheu/pixel-bar)** · Node.js, TypeScript, ws, PixiJS
 
 A realtime 2D virtual bar. Four rooms of 25 players each, fully isolated from one
