@@ -20,7 +20,7 @@ another, with six multiplayer minigames running over a single WebSocket protocol
 All state lives in server memory, no database. 23 end to end checks cover room
 isolation, capacity rejection and counter cleanup.
 
-**[yfl-turnuva](https://github.com/saliheu/yfl-turnuva)** · TypeScript, Vite, Netlify Functions
+**[turnuva-panosu](https://github.com/saliheu/turnuva-panosu)** · TypeScript, Vite, Netlify Functions
 
 Tournament management for school sports. Group draw, round-robin scheduling,
 qualification rules and bracket generation are each their own module. Admin sessions
